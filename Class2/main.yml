@@ -1,0 +1,11 @@
+ - hosts: master
+   tasks:
+   - name: install packages
+     yum:
+      name: httpd
+        state: present
+   - name: Restart httpd
+     service:
+       name: httpd
+         state: restarted
+       
