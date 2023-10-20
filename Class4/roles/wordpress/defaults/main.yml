@@ -1,0 +1,4 @@
+wordpress: https://wordpress.org/latest.tar.gz
+dest_source: /tmp/wordpress.tar.gz
+owner: apache
+group: apache
